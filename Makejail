@@ -1,5 +1,5 @@
 INCLUDE options/options.makejail
 
-PKG dnsmasq
-SYSRC dnsmasq_enable=YES
-SERVICE dnsmasq start
+ARG dnsmasq_tag=latest
+
+FROM --entrypoint gh+AppJail-makejails/dnsmasq dnsmasq:${dnsmasq_tag}

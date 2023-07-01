@@ -1,0 +1,8 @@
+tags: latest
+latest.arch: amd64
+latest.name: "dnsmasq"
+latest.timestamp.amd64: 1688246287
+latest.sum.amd64: 90c522c57523523ba2ee7d868473276c7920c6f12f3a4784815212bd164f7ef5
+latest.size.amd64: 3746104
+latest.source.amd64: https://dtxdf.duckdns.org/y0e3J0z7zb/dnsmasq_latest_amd64_image_appjail
+latest.source.amd64+: https://anonget.onrender.com/y0e3J0z7zb/dnsmasq_latest_amd64_image_appjail

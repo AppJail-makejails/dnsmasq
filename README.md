@@ -96,3 +96,42 @@ appjail makejail -j dnsmasq -- \
 	--vnet_interface em0 \
 	--vnet_ruleset 10
 ```
+
+### Arguments
+
+* `dnsmasq_tag` (default: `latest`): see [#tags](#tags).
+
+## How to build the Image
+
+Make any changes you want to your image.
+
+```
+INCLUDE options/network.makejail
+INCLUDE gh+AppJail-makejails/dnsmasq --file build.makejail
+
+SYSRC dnsmasq_enable=YES
+SERVICE dnsmasq start
+```
+
+Build the jail:
+
+```sh
+appjail makejail -j dnsmasq
+```
+
+Remove unportable or unnecessary files and directories and export the jail:
+
+```sh
+appjail stop dnsmasq
+appjail cmd local dnsmasq sh -c "rm -f var/log/*"
+appjail cmd local dnsmasq sh -c "rm -f var/db/pkg/*"
+appjail cmd local dnsmasq sh -c "rm -f var/cache/pkg/*"
+appjail cmd local dnsmasq vi etc/rc.conf
+appjail image export dnsmasq
+```
+
+## Tags
+
+| Tag | Arch | Version |
+| --- | --- | --- |
+| `latest` | `amd64` | `13.2-RELEASE` |
