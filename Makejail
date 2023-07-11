@@ -1,5 +1,5 @@
 INCLUDE options/options.makejail
 
-ARG dnsmasq_tag=latest
+ARG dnsmasq_tag=13.2
 
 FROM --entrypoint gh+AppJail-makejails/dnsmasq dnsmasq:${dnsmasq_tag}

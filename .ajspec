@@ -1,8 +1,15 @@
-tags: latest
-latest.arch: amd64
-latest.name: "dnsmasq"
-latest.timestamp.amd64: 1688246287
-latest.sum.amd64: 90c522c57523523ba2ee7d868473276c7920c6f12f3a4784815212bd164f7ef5
-latest.size.amd64: 3746104
-latest.source.amd64: https://dtxdf.duckdns.org/y0e3J0z7zb/dnsmasq_latest_amd64_image_appjail
-latest.source.amd64+: https://anonget.onrender.com/y0e3J0z7zb/dnsmasq_latest_amd64_image_appjail
+tags: 13.1
+13.1.arch: amd64
+13.1.name: "dnsmasq"
+13.1.timestamp.amd64: 1689102168
+13.1.sum.amd64: 041646b4d613f9fad605e2a175ae0933bc068ea7dcc526b0703313256fb6f31b
+13.1.size.amd64: 20263832
+13.1.source.amd64: "https://dl.dropboxusercontent.com/scl/fi/cmbhnroecembvl4fh5fhj/dnsmasq-13.1-amd64-image.appjail?rlkey=alco76zdd2tambp5dqcwwdla5&dl=0"
+
+tags+: 13.2
+13.2.arch: amd64
+13.2.name: "dnsmasq"
+13.2.timestamp.amd64: 1689102168
+13.2.sum.amd64: ee48d52d2d3945d49ad75681aad3534ccfc93ebfd11abe9f479f0f06cb0a6ce3
+13.2.size.amd64: 20287940
+13.2.source.amd64: "https://dl.dropboxusercontent.com/scl/fi/zav2duo20qcc30obtm624/dnsmasq-13.2-amd64-image.appjail?rlkey=blx49o2ywgc7pd332qt9c7gnn&dl=0"

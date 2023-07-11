@@ -99,7 +99,7 @@ appjail makejail -j dnsmasq -- \
 
 ### Arguments
 
-* `dnsmasq_tag` (default: `latest`): see [#tags](#tags).
+* `dnsmasq_tag` (default: `13.2`): see [#tags](#tags).
 
 ## How to build the Image
 
@@ -124,14 +124,15 @@ Remove unportable or unnecessary files and directories and export the jail:
 ```sh
 appjail stop dnsmasq
 appjail cmd local dnsmasq sh -c "rm -f var/log/*"
-appjail cmd local dnsmasq sh -c "rm -f var/db/pkg/*"
 appjail cmd local dnsmasq sh -c "rm -f var/cache/pkg/*"
+appjail cmd local dnsmasq sh -c "rm -f var/run/*"
 appjail cmd local dnsmasq vi etc/rc.conf
 appjail image export dnsmasq
 ```
 
 ## Tags
 
-| Tag | Arch | Version |
-| --- | --- | --- |
-| `latest` | `amd64` | `13.2-RELEASE` |
+| Tag    | Arch    | Version        |
+| ------ | ------- | -------------- |
+| `13.2` | `amd64` | `13.2-RELEASE` |
+| `13.1` | `amd64` | `13.1-RELEASE` |
