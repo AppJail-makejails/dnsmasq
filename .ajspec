@@ -1,15 +1,7 @@
-tags: 13.1
-13.1.arch: amd64
-13.1.name: "dnsmasq"
-13.1.timestamp.amd64: 1689212914
-13.1.sum.amd64: 1d81efcb7da98802578c56659577af30abc6cf92d496e7431e1ae87c539596a1
-13.1.size.amd64: 20253712
-13.1.source.amd64: "https://dl.dropboxusercontent.com/scl/fi/hx7b8rsbsivv947dt3dkt/dnsmasq-13.1-amd64-image.appjail?rlkey=jhq4xd9idoooj1ovgflezwtpd&dl=0"
-
-tags+: 13.2
+tags: 13.2
 13.2.arch: amd64
 13.2.name: "dnsmasq"
-13.2.timestamp.amd64: 1689213159
-13.2.sum.amd64: 58955c9b63414123bdac5ce6ba1a63de4733d4d9dc289ae5c21a59a85d1a31e8
-13.2.size.amd64: 20277400
+13.2.timestamp.amd64: 1691176985
+13.2.sum.amd64: 7a451ff530d793e70acf3dd6079d97e3f5b9a36fc7004128558a66ff349acf3c
+13.2.size.amd64: 20391056
 13.2.source.amd64: "https://dl.dropboxusercontent.com/scl/fi/4vp4788kd7ku1xq7kw5vt/dnsmasq-13.2-amd64-image.appjail?rlkey=xto94pgu010inuiynjy4sh1co&dl=0"
