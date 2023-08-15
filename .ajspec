@@ -1,7 +1,7 @@
 tags: 13.2
 13.2.arch: amd64
 13.2.name: "dnsmasq"
-13.2.timestamp.amd64: 1691176985
-13.2.sum.amd64: 7a451ff530d793e70acf3dd6079d97e3f5b9a36fc7004128558a66ff349acf3c
-13.2.size.amd64: 20391056
-13.2.source.amd64: "https://dl.dropboxusercontent.com/scl/fi/4vp4788kd7ku1xq7kw5vt/dnsmasq-13.2-amd64-image.appjail?rlkey=xto94pgu010inuiynjy4sh1co&dl=0"
+13.2.timestamp.amd64: 1692073071
+13.2.sum.amd64: 10a7f51a792731f9b8fee3db6c7f4101cf7d52fdbe563474fc569afdfc7099ab
+13.2.size.amd64: 20415648
+13.2.source.amd64: "https://drive.google.com/uc?export=download&id=1sAQgyJajJ2YW0kQ5ADjJIQWVC-GRkug6"
