@@ -110,7 +110,6 @@ INCLUDE options/network.makejail
 INCLUDE gh+AppJail-makejails/dnsmasq --file build.makejail
 
 SYSRC dnsmasq_enable=YES
-SERVICE dnsmasq start
 ```
 
 Build the jail:
