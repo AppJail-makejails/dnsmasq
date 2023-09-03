@@ -1,7 +1,7 @@
 tags: 13.2
 13.2.arch: amd64
 13.2.name: "dnsmasq"
-13.2.timestamp.amd64: 1692957721
-13.2.sum.amd64: d8906e727d240b9a746b6d9412ee3f828a95baaeba7396cde08ecaf97cf7208c
-13.2.size.amd64: 20424832
+13.2.timestamp.amd64: 1693670421
+13.2.sum.amd64: aaf6b71e9085a127ddc9089e48033dd383e32fd138ed03fc882180a67c89c5d6
+13.2.size.amd64: 20207632
 13.2.source.amd64: "http://appjail.hpc.at/dnsmasq/13.2-amd64-image.appjail"
