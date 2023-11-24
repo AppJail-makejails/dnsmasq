@@ -108,8 +108,6 @@ Make any changes you want to your image.
 ```
 INCLUDE options/network.makejail
 INCLUDE gh+AppJail-makejails/dnsmasq --file build.makejail
-
-SYSRC dnsmasq_enable=YES
 ```
 
 Build the jail:
