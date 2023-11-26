@@ -101,32 +101,6 @@ appjail makejail -j dnsmasq -- \
 
 * `dnsmasq_tag` (default: `13.2`): see [#tags](#tags).
 
-## How to build the Image
-
-Make any changes you want to your image.
-
-```
-INCLUDE options/network.makejail
-INCLUDE gh+AppJail-makejails/dnsmasq --file build.makejail
-```
-
-Build the jail:
-
-```sh
-appjail makejail -j dnsmasq
-```
-
-Remove unportable or unnecessary files and directories and export the jail:
-
-```sh
-appjail stop dnsmasq
-appjail cmd local dnsmasq sh -c "rm -f var/log/*"
-appjail cmd local dnsmasq sh -c "rm -f var/cache/pkg/*"
-appjail cmd local dnsmasq sh -c "rm -f var/run/*"
-appjail cmd local dnsmasq vi etc/rc.conf
-appjail image export dnsmasq
-```
-
 ## Tags
 
 | Tag    | Arch    | Version           | Type   |
