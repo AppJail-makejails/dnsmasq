@@ -99,10 +99,10 @@ appjail makejail -j dnsmasq -- \
 
 ### Arguments
 
-* `dnsmasq_tag` (default: `13.2`): see [#tags](#tags).
+* `dnsmasq_tag` (default: `13.3`): see [#tags](#tags).
 
 ## Tags
 
 | Tag    | Arch    | Version           | Type   |
 | ------ | ------- | ----------------- | ------ |
-| `13.2` | `amd64` | `13.2-RELEASE` | `thin` |
+| `13.3` | `amd64` | `13.3-RELEASE` | `thin` |
