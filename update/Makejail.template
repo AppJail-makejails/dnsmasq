@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG dnsmasq_tag=13.4
+ARG dnsmasq_tag=%%TAG1%%
 ARG dnsmasq_ajspec=gh+AppJail-makejails/dnsmasq
 
 FROM --entrypoint "${dnsmasq_ajspec}" dnsmasq:${dnsmasq_tag}
