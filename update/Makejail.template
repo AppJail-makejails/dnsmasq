@@ -4,3 +4,6 @@ ARG dnsmasq_tag=%%TAG1%%
 ARG dnsmasq_ajspec=gh+AppJail-makejails/dnsmasq
 
 FROM --entrypoint "${dnsmasq_ajspec}" dnsmasq:${dnsmasq_tag}
+
+SYSRC dnsmasq_enable=YES
+SERVICE dnsmasq start
