@@ -1,16 +1,17 @@
 tags+: 13.5
 13.5.arch: amd64
 13.5.name: "dnsmasq"
-13.5.timestamp.amd64: 1742312521
-13.5.sum.amd64: e84ae14984c0444cd10cc1681a7b8ce206a6488f841e34024997098410c31c04
-13.5.size.amd64: 35591729
-13.5.source.amd64: "http://appjail.hpc.at/dnsmasq/13.5-amd64-image.appjail"
-13.5.source.amd64+: "https://images.all101bsd.download/dnsmasq/13.5-amd64-image.appjail"
+13.5.timestamp.amd64: 1744219634
+13.5.sum.amd64: 33a2e694ae7cea1db23a5ab554520a0c1fc1271d92ff1c2ae5a229dbca2d814d
+13.5.size.amd64: 35832108
+13.5.source.amd64: "https://images.all101bsd.download/dnsmasq/13.5-amd64-image.appjail"
+13.5.source.amd64+: "http://appjail.hpc.at/dnsmasq/13.5-amd64-image.appjail"
 tags+: 14.2
 14.2.arch: amd64
 14.2.name: "dnsmasq"
-14.2.timestamp.amd64: 1742312659
-14.2.sum.amd64: 0afdd205bbaa6e2ecfbc727d1d3d64534bc28e6393d61e52e0dde5493080550f
-14.2.size.amd64: 35016516
-14.2.source.amd64: "http://appjail.hpc.at/dnsmasq/14.2-amd64-image.appjail"
-14.2.source.amd64+: "https://images.all101bsd.download/dnsmasq/14.2-amd64-image.appjail"
+14.2.timestamp.amd64: 1744219687
+14.2.sum.amd64: 2d82a4b6f108c7d1dc98bc9c3a3b6d7759c24004832f49d1bc1f1000643fff4e
+14.2.size.amd64: 33460534
+14.2.source.amd64: "https://images.all101bsd.download/dnsmasq/14.2-amd64-image.appjail"
+14.2.source.amd64+: "http://appjail.hpc.at/dnsmasq/14.2-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."
