@@ -1,14 +1,15 @@
 tags+: 14.3
 14.3.arch: amd64
 14.3.name: "dnsmasq"
-14.3.timestamp.amd64: 1769673708
-14.3.sum.amd64: ee2c2ef9cfaa76a868a6184ba1471c41a9dd1d8dc689cc0ae851042bd103b54d
-14.3.size.amd64: 37356179
+14.3.timestamp.amd64: 1771663040
+14.3.sum.amd64: b5c4bd9887245465fb451e47a9f23e4ed6786183d596916b17455506c5d052d3
+14.3.size.amd64: 37288461
 14.3.source.amd64: "http://appjail.hpc.at/dnsmasq/14.3-amd64-image.appjail"
 tags+: 15
 15.arch: amd64
 15.name: "dnsmasq"
-15.timestamp.amd64: 1769673878
-15.sum.amd64: a2af15637b4d95637d1f8d2c2d0546c20fb99ee08787612a8cdafa886dcaee44
-15.size.amd64: 207264301
+15.timestamp.amd64: 1771663230
+15.sum.amd64: abcb21fb6e625a4402124742a221a9d96badca2af0b95b3ff93eb01ed14ac4b4
+15.size.amd64: 207354747
 15.source.amd64: "http://appjail.hpc.at/dnsmasq/15-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."
