@@ -1,9 +1,6 @@
-INCLUDE options/options.makejail
+ARG dnsmasq_from=ghcr.io/appjail-makejails/dnsmasq
+ARG dnsmasq_tag=latest
 
-ARG dnsmasq_tag=14.3
-ARG dnsmasq_ajspec=gh+AppJail-makejails/dnsmasq
-
-FROM --entrypoint "${dnsmasq_ajspec}" dnsmasq:${dnsmasq_tag}
-
-SYSRC dnsmasq_enable=YES
-SERVICE dnsmasq start
+OPTION container=boot
+OPTION overwrite=force
+OPTION from=${dnsmasq_from}:${dnsmasq_tag}
