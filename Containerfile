@@ -14,7 +14,7 @@ LABEL org.opencontainers.image.title="DNSMasq" \
 RUN set -xe; \
     \
     pkg update; \
-    pkg install -U dnsmasq; \
+    pkg install dnsmasq; \
     \
     if [ -z "${NO_PKGCLEAN}" ]; then \
         pkg clean -a; \
